@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(fundo.jpg);
+    font-family: sans-serif;
+    font-size: 26px;
+    margin-top: 2%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.foto{
+    border-style: solid;
+    border-width: 6px;
+    border-color: dodgerblue;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.6);
+}
+h1, h3{
+    color:dodgerblue;
+    text-decoration: underline;
+}
+p, a{
+    color:deepskyblue
+}
+div{
+    background-color: #ffffff;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.1), -3px 3px 3px rgba(0,0,0,0.1), 3px -3px 3px rgba(0,0,0,0.1), -3px -3px 3px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+}   
+section{
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 6.3px;
+    padding: 20px;
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+.icon{
+    vertical-align: middle;
+}
+progress:hover {
+    zoom: 110%;
+}
